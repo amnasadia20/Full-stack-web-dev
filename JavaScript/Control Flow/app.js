@@ -6,13 +6,13 @@ Bring some money dude
 */
 let age = 22;
 if (age == 18) {
-    console.log("You are not allowed to attend the party");
+   // console.log("You are not allowed to attend the party");
     
 } else if(age == 21) {
-    console.log("You can attend the party.");
+   // console.log("You can attend the party.");
     
 } else {
-    console.log("Go home bro");
+    //console.log("Go home bro");
     
 }
 
@@ -112,6 +112,7 @@ switch(fruit) {
 }
 
 // for loop: Don't Repeat Yourself.
+/*console.log("Salam Amna");
 console.log("Salam Amna");
 console.log("Salam Amna");
 console.log("Salam Amna");
@@ -131,7 +132,7 @@ console.log("Salam Amna");
 console.log("Salam Amna");
 console.log("Salam Amna");
 console.log("Salam Amna");
-console.log("Salam Amna");
+*/
 
 //Let's convert the above code to for loop.
 //for loop
@@ -168,7 +169,7 @@ While (condition) {
 */
 let i = 1;
 while (i <= 5) {
-    console.log("Amna");
+   // console.log("Amna");
     i++;
 }
 
@@ -190,7 +191,53 @@ do {
 
 let myName = 20;
 do {
-    console.log("Amna Sadia", myName)
+  //  console.log("Amna Sadia", myName)
     myName++
     
 } while(myName<=50);
+
+// Logical Operations
+/*
+Logical AND (&&)
+True if both the operands boolean values are true, else evaluates to false.
+*/
+
+/*const c = true;
+const d = false;
+const e =4;
+
+console.log(c && d);
+*/
+
+/*
+Logical OR(||)
+True if either of the operand/boolean values is true.
+evaluates to false if both are false.
+*/
+/*const c = true;
+const d = true;
+const e =4;
+
+console.log(c || d);
+*/
+
+/*
+Logical NOT(!)
+True if the operands are false and vice versa.
+*/
+
+const c = true;
+const d = false;
+const e =4;
+
+console.log(!c);
+
+let passsWord = "amnaDeveloper"
+if (passsWord.length >= 8 || passsWord.includes("amna")) {
+    console.log("Valid Password");
+    
+    
+} else {
+    console.log("Invalid Password");
+    
+}
