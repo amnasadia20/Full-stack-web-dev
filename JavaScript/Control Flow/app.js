@@ -161,3 +161,21 @@ for (let idx = 0; idx <= 1000; idx++) {
 };
 
 //While loop
+/*
+While (condition) {
+ code block to b executed.
+}
+*/
+let i = 1;
+while (i <= 5) {
+    console.log("Amna");
+    i++;
+}
+
+//challenge problem.
+let me = 1;
+while (me <= 100) {
+    console.log("Amna", me);
+    me++;
+
+}
