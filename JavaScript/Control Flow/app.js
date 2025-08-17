@@ -175,7 +175,22 @@ while (i <= 5) {
 //challenge problem.
 let me = 10;
 while (me <= 100) {
-    console.log("Amna", me);
+    //console.log("Amna", me);
     me++;
 
 }
+
+//Do While Loop. Do while loop will exactly do the same thing but syntax will be different.
+let index =1;
+do {
+    console.log("Hello World", index);
+    i++
+    
+} while (i<=5);
+
+let myName = 20;
+do {
+    console.log("Amna Sadia", myName)
+    myName++
+    
+} while(myName<=50);
