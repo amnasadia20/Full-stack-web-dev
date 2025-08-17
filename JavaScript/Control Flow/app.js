@@ -173,7 +173,7 @@ while (i <= 5) {
 }
 
 //challenge problem.
-let me = 1;
+let me = 10;
 while (me <= 100) {
     console.log("Amna", me);
     me++;
