@@ -241,3 +241,18 @@ if (passsWord.length >= 8 || passsWord.includes("amna")) {
     console.log("Invalid Password");
     
 }
+
+let secretKey = "CodeMaster@2025";
+
+if (
+    (secretKey.length >= 10 && secretKey.length <= 20) &&   // Length between 10–20
+    /[A-Z]/.test(secretKey) &&                              // At least one uppercase
+    /[a-z]/.test(secretKey) &&                              // At least one lowercase
+    /[0-9]/.test(secretKey) &&                              // At least one number
+    /[@$!%*?&]/.test(secretKey) &&                          // At least one special char
+    !secretKey.toLowerCase().includes("password")           // Shouldn’t contain "password"
+) {
+    console.log("✅ Strong Password");
+} else {
+    console.log("❌ Weak Password");
+}
